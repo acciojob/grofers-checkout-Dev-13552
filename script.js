@@ -18,7 +18,7 @@ const getSum = () => {
 
 	let table = document.querySelector("table")
 	let lastRow = document.createElement(`tr`)
-	lastRow.innerHTML = `<td>Total Price: </td><td> ${sum} </td>`
+	lastRow.innerHTML = `<td> ${sum} </td>`
 	table.appendChild(lastRow)
 	
 };
